@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import './index.css'
-import { config } from './utils/config'
+import { config } from './config'
 
 function App(): JSX.Element {
   return (
