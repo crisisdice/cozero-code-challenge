@@ -56,8 +56,7 @@ export function SearchView({ setCryptoData, setCryptoGraph, setLoading }:
             <div className="search-content">
                 {previousSearches.map(term => <span onClick={() => { setSearchTerm(term); }} key={term}>{term}</span>)}
             </div>
-            { error && <div id="error">Currency not Found</div> }
+            { error && <div>Currency not Found</div> }
         </div>
-        <div id="test">test</div>
     </div>
 }
